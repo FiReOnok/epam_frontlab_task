@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JS Frontlab task - Yakov Kungurtsev</title>
+</head>
+
+<body>
+    <main>
+        <h1>Users list</h1>
+        <section id="settings">
+            <span>Sort by: </span>
+            <select name="sort" id="usersSort" onchange="usersSort()">
+                <option selected value="alphabet">A-Z</option>
+                <option value="alphabetReverse">Z-A</option>
+            </select>
+        </section>
+        
+        <section id="users">
+            Loading...
+        </section>
+        <div id="userInfo">
+
+        </div>
+    </main>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
